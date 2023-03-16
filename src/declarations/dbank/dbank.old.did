@@ -1,0 +1,6 @@
+service : {
+  compound: () -> () oneway;
+  currentAmount: () -> (float64) query;
+  topUp: (float64) -> () oneway;
+  withdrawl: (float64) -> () oneway;
+}
